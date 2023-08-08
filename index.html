@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>DevSorteio</title>
 </head>
-<body>
-    <img src="assets/sort 1.png">
 
-    <h2>Sortear um Número</h2>
-    <div>
+<body>
+    <div class="result"></div>
+        <img src="assets/gif-dado.gif" id="img-dado" class="imgagem-dado">
+        <h1>DevSorteio</h1>
+        <h2>Sortear um Número</h2>
+    
+    <div class="container">
         <input placeholder="entre" class="input-min" type="number">
         <input placeholder="e" class="input-max" type="number">
     </div>
 
-    <button onclick="generateNumber()">Sortear</button>
+    <button onclick="generateNumber()" id="changerButton">Sortear</button>
 
 </body>
 <script src="scripts.js"></script>
+
 </html>

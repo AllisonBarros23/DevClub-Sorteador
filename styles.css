@@ -20,6 +20,17 @@ body {
 
 }
 
+h1 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight:700;
+    font-size: 55px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 85px;
+}
+
 h2 {
     color: #FFFFFF;
     font-size: 32px;
@@ -71,3 +82,32 @@ button:hover {
 button:active {
     opacity: 0.8;
 }
+
+@media screen and (max-width:547px) {
+    .container{
+        margin-left: 152px;
+        
+    }
+
+    .input-min{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .container{
+        margin-left: 84px;
+    
+    
+    }
+}
+
+@media screen and (max-width:390px) {
+    .container{
+        margin-left: 74px;
+    
+    
+    }
+}
+
+
